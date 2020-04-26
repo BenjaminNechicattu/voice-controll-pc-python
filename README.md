@@ -8,8 +8,6 @@ Install required Packages
           ..pip install speechrecognition
           ..pip install nltk
           
-          
-          
 Simply Run the python program. say command
 
 
