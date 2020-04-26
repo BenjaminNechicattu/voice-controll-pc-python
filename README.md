@@ -25,4 +25,4 @@ commands
          .. backspace       _to press "backspace" button_
          .. delete          _to press "delete" button_
          .. caps            _to press "capslock" button_
-          
+         ..
