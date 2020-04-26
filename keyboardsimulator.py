@@ -1,7 +1,7 @@
 ###################################################################################### Imports ###############################################################################
-import keyboard                                   """pip install keyboard"""            ## imports Keyboard package     
-import speech_recognition                         """pip install speechrecognition"""   ## speech recognition over google ___ requires internet access  
-from nltk.tokenize import word_tokenize           """pip install nltk"""                ## for word tokenization ___ Advanced program can bring Natural Language processing
+import keyboard                                   ##"""pip install keyboard"""          ## imports Keyboard package     
+import speech_recognition                         ##"""pip install speechrecognition""" ## speech recognition over google ___ requires internet access  
+from nltk.tokenize import word_tokenize           ##"""pip install nltk"""              ## for word tokenization ___ Advanced program can bring Natural Language processing
 
 ################################################################################## Voice Recognition #########################################################################
 def listenit():
