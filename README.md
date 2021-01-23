@@ -1,14 +1,15 @@
 # voice-controll-pc-python
-control pc using voice commands
+Control pc using voice commands known as ELSA.
 
 
 ## Install required Packages
-          _pip install pocketsphinx
           _pip install kerboard
           _pip install speechrecognition
           _pip install nltk
+          _pip install pyttsx3
           
 ## Simply Run the python program. say command
+The program now known as ELSA is more capable of many more features. Now Elsa is also powered by pyttsx3 to reply to users.
 
 
 ## commands
@@ -23,4 +24,6 @@ control pc using voice commands
          _ backspace       _to press "backspace" button_
          _ delete          _to press "delete" button_
          _ caps            _to press "capslock" button_
-         ..
+         _ undo
+         _ redo
+         .....>
