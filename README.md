@@ -3,7 +3,7 @@ Control pc using voice commands known as ELSA.
 
 
 ## Install required Packages
-          _pip install kerboard
+          _pip install keyboard
           _pip install speechrecognition
           _pip install nltk
           _pip install pyttsx3
