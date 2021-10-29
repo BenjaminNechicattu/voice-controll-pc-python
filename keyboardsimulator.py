@@ -150,6 +150,13 @@ if __name__ == "__main__" :
                         reply.engine.runAndWait()
                         keyboard.press_and_release('space')          
                         print(i)
+
+                    # space command
+                    elif i=="close":
+                        reply.engine.say("moving left")
+                        reply.engine.runAndWait()
+                        keyboard.press_and_release('alt + f4')          
+                        print(i)
                     
                     # simulates backspace key stroke 
                     elif i=="back":
