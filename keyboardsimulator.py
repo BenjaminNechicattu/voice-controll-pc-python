@@ -114,6 +114,14 @@ if __name__ == "__main__" :
                         keyboard.press_and_release('tab')                                 
                         print(i)
                         
+                        
+                    # simulates tab press
+                    elif i=="escape":
+                        reply.engine.say("moving tab")
+                        reply.engine.runAndWait()
+                        keyboard.press_and_release('esc')                                 
+                        print(i)
+                        
                     # simulates enter key
                     elif i=="enter" or i=="ok" or i=="okey" or i =="select":
                         if i=="enter" or i =="select": 
