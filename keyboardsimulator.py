@@ -144,7 +144,7 @@ if __name__ == "__main__" :
                         keyboard.press_and_release('left')          
                         print(i)
 
-                    # left arrow key command
+                    # space command
                     elif i=="space":
                         reply.engine.say("moving left")
                         reply.engine.runAndWait()
