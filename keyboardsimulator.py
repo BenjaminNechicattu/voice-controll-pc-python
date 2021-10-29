@@ -114,7 +114,6 @@ if __name__ == "__main__" :
                         keyboard.press_and_release('tab')                                 
                         print(i)
                         
-                        
                     # simulates tab press
                     elif i=="escape":
                         reply.engine.say("moving tab")
@@ -143,6 +142,13 @@ if __name__ == "__main__" :
                         reply.engine.say("moving left")
                         reply.engine.runAndWait()
                         keyboard.press_and_release('left')          
+                        print(i)
+
+                    # left arrow key command
+                    elif i=="space":
+                        reply.engine.say("moving left")
+                        reply.engine.runAndWait()
+                        keyboard.press_and_release('space')          
                         print(i)
                     
                     # simulates backspace key stroke 
