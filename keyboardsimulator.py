@@ -295,7 +295,7 @@ if __name__ == "__main__" :
             print ("try again")
         # for Unknown value error
         except speech_recognition.UnknownValueError :
-            print ("try again")
+            print ("try again or restart")
             
             
 #####   to be added            
