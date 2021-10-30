@@ -144,18 +144,11 @@ if __name__ == "__main__" :
                         keyboard.press_and_release('left')          
                         print(i)
 
-                    # space command
+                    # left arrow key command
                     elif i=="space":
                         reply.engine.say("moving left")
                         reply.engine.runAndWait()
                         keyboard.press_and_release('space')          
-                        print(i)
-
-                    # space command
-                    elif i=="close":
-                        reply.engine.say("moving left")
-                        reply.engine.runAndWait()
-                        keyboard.press_and_release('alt + f4')          
                         print(i)
                     
                     # simulates backspace key stroke 
