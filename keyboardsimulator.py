@@ -4,7 +4,7 @@ from nltk.tokenize import word_tokenize                         ######      NLTK
 import os                                                       ######      to import os functions
 import pyttsx3                                                  ######      pyttsx3 for elsa to reply
 import subprocess                                               ######      to start application as a subprocess
-#import threading                                               ######      for multi threading 
+import threading                                               ######      for multi threading 
 
 # init_voice class
 # for defining properties of voice and speed
