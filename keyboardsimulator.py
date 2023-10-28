@@ -18,7 +18,7 @@ class init_voice() :
     engine.setProperty('rate', 140)
 
 # listenit function
-# for listen command
+# for listen commands
 # no arguments or parameter passing
 # initialises the speech reoigniser and convert it to text
 # return the text of the command
