@@ -75,7 +75,7 @@ if __name__ == "__main__" :
             tokens = word_tokenize(command)
             
             # initializing a list to store the keywords
-            key=["up", "down", "right", "tab" ,"left","next","stop","start","enter","undo","redo","back","okey","quit","open","insert", "add","select","ok","hello", "hai", "hey","hi", "hay"]
+            key=["up", "down", "right", "tab" ,"left","next","stop","start","enter","undo","redo","back","okey","quit","open","insert", "add","select","ok","hello", "hai", "hey","hi", "hyy"]
             
             # for each token in tokens
             for i in tokens:
